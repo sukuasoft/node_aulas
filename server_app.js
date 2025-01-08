@@ -5,12 +5,13 @@ const bodyParser = require('body-parser');
 const server = express();
 server.use(bodyParser.json());
 
-//(cliente, e servidor)
+// (cliente, e servidor)
 
-//fisica -> MAC
-//rede -> IP 
-//transporte -> TCP ou UDP
-//aplicacao  -> HTTP, HTTPS, FTP, SMTP, WEBSOCKET, MQTT
+// Modelo TCP/IP
+//1. fisica -> MAC
+//2. rede -> IP 
+//3. transporte -> TCP ou UDP
+//4. aplicacao  -> HTTP, HTTPS, FTP, SMTP, WEBSOCKET, MQTT
 
 
 // web app vs  web service

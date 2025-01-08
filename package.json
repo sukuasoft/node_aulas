@@ -1,6 +1,5 @@
 {
   "name": "node_aulas",
-  "type": "module",
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
