@@ -17,6 +17,7 @@ async function main (){
     const server = express();
     server.use(express.json());
     server.use(cors());
+ 
 
     //inicio do server
     const fileContent = await fs.readFile(firebaseKeyFile, {

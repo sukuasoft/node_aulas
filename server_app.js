@@ -144,11 +144,11 @@ server.put('/users/:id', function (request, response){
 
             const data = request.body;
 
-            if(data.email != undefined){
+            if(data.email){
                 user.email = data.email;
             }
 
-            if (data.nome != undefined){
+            if (data.nome){
                 user.nome = data.nome;
             }
 
